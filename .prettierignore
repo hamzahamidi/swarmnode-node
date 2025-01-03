@@ -1,0 +1,14 @@
+dist
+coverage
+node_modules
+
+package-lock.json
+package.json
+.nvmrc
+tsconfig.json
+.gitignore
+.prettierrc
+.prettierignore
+README.md
+LICENSE
+.DS_Store
