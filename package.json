@@ -1,0 +1,44 @@
+{
+  "name": "@swarmnode-ai/client",
+  "version": "0.1.0",
+  "description": "swarmnode-ai nodejs client",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swarmnode-ai/swarmnode-node.git"
+  },
+  "keywords": [
+    "swarmnode",
+    "ai",
+    "swarmnode-ai",
+    "client"
+  ],
+  "author": "Hamza HAMIDI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swarmnode-ai/swarmnode-node/issues"
+  },
+  "homepage": "https://github.com/swarmnode-ai/swarmnode-node#readme",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.14",
+    "@types/ws": "^8.5.13",
+    "jest": "^29.7.0",
+    "prettier": "3.4.2",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
